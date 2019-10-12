@@ -25,3 +25,4 @@ for dict in data:
             file = open("trump_approval_rating.json", 'w')
             file.write("{\"approve_avg\": " + str(approve_avg) + ", " + "\"disapprove_avg\": " + str(disapprove_avg) + ", ")
             file.write("\"approve\": " + str(dict["approve_estimate"]) + ", " + "\"disapprove\": " + str(dict["disapprove_estimate"]) + "}")
+            break
