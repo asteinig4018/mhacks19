@@ -8,7 +8,7 @@ googleTrends.realTimeTrends({
     if (err) {
        console.log(err);
     } else {
-      fs.writeFileSync("trends_realtime_us.txt", results);
+      fs.writeFileSync("trends_realtime_us.json", results);
     }
 });
 
@@ -19,6 +19,6 @@ googleTrends.realTimeTrends({
     if (err) {
        console.log(err);
     } else {
-      fs.writeFileSync("trends_sports_us.txt", results);
+      fs.writeFileSync("trends_sports_us.json", results);
     }
 });
