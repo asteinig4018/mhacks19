@@ -17,4 +17,5 @@ else:
     dates = list(data["Time Series (Daily)"].keys())
     yesterday_price = float(data["Time Series (Daily)"][dates[1]]["4. close"])
     file = open("sp500_price.json", 'w')
-    file.write("{\"current_price\": " + str(current_price) + ", \"yesterday_price\": " + str(yesterday_price) + "}")
+    file.write("{\"current_price\": " + str(current_price) + ", \"yesterday_price\": " + str(yesterday_price) + ", ")
+    file.write("\"percent_change\": " + str(100*(current_price-yesterday_price)/yesterday_price) + "}")
