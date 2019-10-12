@@ -6,7 +6,7 @@ APIKEY = "F62MHL3VDUMCEMGP"
 # AlphaVantage API call and parse
 url = "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=INX&interval=1min&apikey=" + APIKEY
 
-data = urllib.request.urlopen(url, timeout=5)
+data = urllib.request.urlopen(url)
 
 data = json.loads(data.read().decode('utf-8'))
 
