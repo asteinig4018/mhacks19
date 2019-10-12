@@ -1,0 +1,26 @@
+Warren,L
+Democrat,L
+Democratic,L
+Barack,L
+Obama,L
+Clinton,L
+Hillary,L
+Bernie,L
+Buttigieg,L
+Schiff,L
+Pelosi,L
+Kamala,L
+Biden,L
+Schumer,L
+Trump,C
+Donald,C
+MAGA,C
+Linsdey Graham,C
+Republican,C
+GOP,C
+Build the wall,C
+Devin Nunes,C
+Pence,C
+Barr,C
+Kavanaugh,C
+Gorsuch,C
