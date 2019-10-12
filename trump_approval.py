@@ -4,7 +4,6 @@ from datetime import date
 
 today = date.today().strftime("%Y-%m-%d")
 
-# AlphaVantage API call and parse
 url = "https://projects.fivethirtyeight.com/trump-approval-ratings/approval.json"
 data = urllib.request.urlopen(url)
 data = json.loads(data.read().decode('utf-8'))
