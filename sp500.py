@@ -4,9 +4,7 @@ import json
 APIKEY = "F62MHL3VDUMCEMGP"
 
 url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=INX&apikey=" + APIKEY
-
 data = urllib.request.urlopen(url)
-
 data = json.loads(data.read().decode('utf-8'))
 
 if list(data.keys())[0] == "Note":

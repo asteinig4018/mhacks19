@@ -13,7 +13,6 @@ disapprove_sum = 0
 count = 0
 
 for dict in data:
-
     if dict["subgroup"] == "All polls":
         approve_sum = approve_sum + float(dict["approve_estimate"])
         disapprove_sum = disapprove_sum + float(dict["disapprove_estimate"])
