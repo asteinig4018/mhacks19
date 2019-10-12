@@ -1,6 +1,5 @@
 Warren,L
 Democrat,L
-Democratic,L
 Barack,L
 Obama,L
 Clinton,L
@@ -17,7 +16,8 @@ Donald,C
 MAGA,C
 Linsdey Graham,C
 Republican,C
-GOP,C
+ GOP ,C
+ GOP.,C
 Build the wall,C
 Devin Nunes,C
 Pence,C
