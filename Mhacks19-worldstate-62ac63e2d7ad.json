@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mhacks19-worldstate",
+  "private_key_id": "62ac63e2d7ad195ba2abee86b3dd2e76a9955f7c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC/WRA8tys2BxbV\nCgsDs1MC1TQsYa2qVn8w6JFFEDc844gmgkOMEGsZ/YZVvF3aA1tnGC3Gn8BWIpht\n5mt1+72i3t+Mq0+oW8Ttbdf3QNJjSO5tkcuSFnx0MJ0bCUyl55C2OzxlAt7h6LIn\nj+EMhvicrNQhG/uHVTu9d/c8IMvAvFh6mAf6KoSd+nx5LGJEZu3tIY4z7HaH2bay\ngwmrCT+o2g9D+HCw0epeLp4aE423aXm8z1vSOSabGuccYO/S1wTaRJZB5S2sVFpk\nMcbVks81GcqPl2x4kBbD/heZyf6iI12yGWaCyxDkTZDtO3hnNIOyB1t1x1g17kT7\nRLU/H9MrAgMBAAECggEAAgY52xU/qnKowILlWu9VZtJFRbLtg2p8Lf2dNn3VbRol\ny+0qNHEisO5dssqAs63AFHciWizr0VLMX11GBcQusr++MwlyQ6BflPjJ2skfcK10\n2Ek9PhkUIqaLrZ2LkgsWcixuQc37TaiIj01BCZY5SxmzpNCxozI4+j2AABguD6aU\nZN33aWMv+KJAFYU6bn10bx4dA+OLcKOjjIhCb+qXeUxolw4gNVCxQ2aqtIgNHIxM\nhbRuiSDKGKzdUFUH8DUjX/x8LaQFBRLMg54clMTdJZtcwoa3+jA/Q4M7lLHtOqVo\n8X/5P01RANlVI9VFA6SsUYj2W7lkMRvE/pJIwj4xAQKBgQD8450YtVRpH3j9uucM\n41xPVZEAq4YUn6hyena5S71hbJwHe/36c1vigslAbpfhdmu1btbx0avhc/6rR8bO\nDv0zQl87Ds98bgeRgKiiQeMAZqAhJjJyS/7llci+QO3JSF3rTDDzs2ZJMlvSs0Qq\nMqii3t2gUt+NNmZdlRoesbEy9QKBgQDBs6WpmYnKVFTsHsVZ6fHouBnbkBH0DfKs\nhmVPUpvY3EkmAot46HOaCbLdeTwNBGix13bZLhflGrGnNDqGOxWKxzWKqSpfHd/k\nDt+3NKFQ2R40CZZEq3/q3oRz9VmHWsQfG7koPy9/gs4OCsynd9yhfIlHMMhQ96sQ\n34pX1bJZnwKBgQDhlrHm/qrD891cikPeDVulMbFeJaQ/9YSwSmpqNRRFOjuduZAA\nwLNwxjZ9EarO53KBsNRxdxaa0XyWkjrYSiq4dTa6WiXg285Ij7res2OqUeH6cDaE\nGyLQ7uLaRNVZvwJ5CciJPLm8Bf4/YMcn1XT1hVWy1Pqy35pFVOKuCtkFmQKBgQCf\nkgQGTKMTmBeBkPPZV31eztMWaoAvwpHJCMpK523V39suwefuCei53AWKqAYNXzV0\nVGDnFy6+IRh6+u6/h8r+UY/NFAEA7JZ1xL8NqQC/nq1gBwnQtkuhy//nmxZPCDoK\nuob1HeBeNf7T2Jex2m9aZUKd8BUFhpJZSx4nr7bGVwKBgQDGfGjKLBPnGwMFWilH\nM2KbVBkpUQf/s5L6FVJ0I7FgfLdWUaXkAbf+ljySIwP87Pn/V87EZ2VwrWd3+34K\nzfeG8wMmg0eEYI3gEASYtnff4H9yNWL7J1VriGPoiPWoINZ4rbyAbS4Nw+b6TcQM\nV/UUe+be7xjQ7A8UO0cXnHHiPw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "main-741@mhacks19-worldstate.iam.gserviceaccount.com",
+  "client_id": "103832978050676750193",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/main-741%40mhacks19-worldstate.iam.gserviceaccount.com"
+}
