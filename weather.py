@@ -6,7 +6,7 @@ APIKEY = "5299a0c2aaaf8d5780f8c15ca5c1af32"
 with open("USstates_avg_latLong.json") as json_file:
     states = json.load(json_file)
 
-file = open("us_weather.json", 'w')
+file = open("weather_us.json", 'w')
 file.write("{")
 
 for x in range(50):
