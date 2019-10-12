@@ -8,6 +8,17 @@ googleTrends.realTimeTrends({
     if (err) {
        console.log(err);
     } else {
-      fs.writeFileSync("google_trends_realtime.txt", results);
+      fs.writeFileSync("trends_realtime_us.txt", results);
+    }
+});
+
+googleTrends.realTimeTrends({
+    geo: 'US',
+    category: 's',
+}, function(err, results) {
+    if (err) {
+       console.log(err);
+    } else {
+      fs.writeFileSync("trends_sports_us.txt", results);
     }
 });
