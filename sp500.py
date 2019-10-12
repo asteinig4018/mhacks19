@@ -3,7 +3,7 @@ import json
 
 APIKEY = "F62MHL3VDUMCEMGP"
 
-url = "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=INX&interval=1min&apikey=" + APIKEY
+url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=INX&apikey=" + APIKEY
 
 data = urllib.request.urlopen(url)
 
@@ -13,6 +13,8 @@ if list(data.keys())[0] == "Note":
     print("Exceeded 5 API calls per minute")
 else:
     recent_refresh = data["Meta Data"]["3. Last Refreshed"]
-    price = float(data["Time Series (1min)"][recent_refresh]["4. close"])
+    current_price = float(data["Time Series (Daily)"][recent_refresh]["4. close"])
+    dates = list(data["Time Series (Daily)"].keys())
+    yesterday_price = float(data["Time Series (Daily)"][dates[1]]["4. close"])
     file = open("sp500_price.json", 'w')
-    file.write("{\"price\": " + str(price) + "}")
+    file.write("{\"current_price\": " + str(current_price) + ", \"yesterday_price\": " + str(yesterday_price) + "}")
