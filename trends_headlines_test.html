@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+<body>
+
+<h1>Trending Headlines</h1>
+
+<p><a id="headline1" href=""></a></p>
+<p><a id="headline2" href=""></a></p>
+<p><a id="headline3" href=""></a></p>
+
+<script>
+
+$.getJSON("trends_realtime_simp.json").then(stories => {
+  document.getElementById("headline1").innerHTML = stories.a0.title;
+  document.getElementById("headline2").innerHTML = stories.a1.title;
+  document.getElementById("headline3").innerHTML = stories.a2.title;
+  document.getElementById("headline1").href = stories.a0.link;
+  document.getElementById("headline2").href = stories.a1.link;
+  document.getElementById("headline3").href = stories.a2.link;
+});
+
+</script>
+
+</body>
+</html>
