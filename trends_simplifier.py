@@ -1,5 +1,6 @@
 import json
 import time
+import sys
 
 NUM_STORIES = 5
 
@@ -23,5 +24,5 @@ def simplify(filename):
 
     file.write("}")
 
-simplify("trends_realtime")
-simplify("trends_sports")
+simplify(sys.argv[1])
+print(sys.argv[1])

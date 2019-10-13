@@ -10,6 +10,7 @@ googleTrends.realTimeTrends({
        console.log(err);
     } else {
       fs.writeFileSync("trends_realtime.json", results);
+      var pythonProcess = spawn('python',["trends_simplifier.py","trends_realtime"]);
     }
 });
 
@@ -21,8 +22,6 @@ googleTrends.realTimeTrends({
        console.log(err);
     } else {
       fs.writeFileSync("trends_sports.json", results);
-
-      // Simplify both files
-      var pythonProcess = spawn('python',['trends_simplifier.py']);
+      var pythonProcess = spawn('python',["trends_simplifier.py","trends_sports"]);
     }
 });
