@@ -1,3 +1,6 @@
+
+
+
 function renderChart(data, labels) {
     var ctx = document.getElementById("myChart").getContext('2d');
     var myChart = new Chart(ctx, {
@@ -36,6 +39,7 @@ function renderChart(data, labels) {
 
 function getChartData() {
     //$("#loadingMessage").html('<img src="./giphy.gif" alt="" srcset="">');
+	console.log("hello");
     $.ajax({
         url: "http://localhost:3000/chartdata",
         success: function (result) {
